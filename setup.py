@@ -24,10 +24,9 @@ setup(
     long_description_content_type="text/markdown",
     packages=find_packages(exclude=("tests",), include=["cloudsen12", "cloudsen12.*"]),
     install_requires=[
-        "rioxarray",
-        "requests",
-        "gdown",
-        "numpy"
+        "maskay",
+        "pytorch_lightning",
+        "segmentation_models_pytorch"        
     ],
     classifiers=[
         "Development Status :: 2 - Pre-Alpha",
