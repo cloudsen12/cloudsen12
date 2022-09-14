@@ -4,3 +4,7 @@ dist/
 build/
 
 cloudsen12.egg-info/
+
+cloudsen12/__pycache__/
+
+cloudsen12/stac/
