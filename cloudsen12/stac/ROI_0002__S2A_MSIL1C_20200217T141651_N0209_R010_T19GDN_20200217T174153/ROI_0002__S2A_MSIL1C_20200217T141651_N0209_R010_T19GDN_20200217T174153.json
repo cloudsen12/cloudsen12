@@ -1,0 +1,221 @@
+{
+  "type": "Feature",
+  "stac_version": "1.0.0",
+  "id": "ROI_0002__S2A_MSIL1C_20200217T141651_N0209_R010_T19GDN_20200217T174153",
+  "properties": {
+    "roi_id": "ROI_0002",
+    "s2_id_gee": "20200217T141651_20200217T142551_T19GDN",
+    "s2_id": "S2A_MSIL1C_20200217T141651_N0209_R010_T19GDN_20200217T174153",
+    "s2_sen2cor_version": "N02.14",
+    "s2_fmask_version": "4.3.0",
+    "s2_cloudless_version": "1.5.0",
+    "s2_reflectance_conversion_correction": 1.02597756651,
+    "s2_aot_retrieval_accuracy": 0,
+    "s2_view_off_nadir": 0,
+    "s2_view_sun_azimuth": 54.261006137,
+    "s2_view_sun_elevation": 47.1275193718,
+    "s1_id": "S1B_IW_GRDH_1SDV_20200219T094933_20200219T094958_020336_026841_1147",
+    "s1_date": "2020-02-19T09:49:33Z",
+    "s1_grd_post_processing_software_name": "Sentinel-1 IPF",
+    "s1_slc_processing_facility_name": "Copernicus S1 Core Ground Segment - DPA",
+    "s1_slc_processing_software_version": 3.2,
+    "s1_radar_coverage": 1.0,
+    "land_cover": 30,
+    "label_type": "high",
+    "cloud_coverage": "low-cloudy",
+    "test": 0,
+    "difficulty": 2.0,
+    "proj:centroid": {
+      "lat": -42.91051,
+      "lon": -69.9609
+    },
+    "proj:epsg": 32719,
+    "proj:shape": 509,
+    "proj:transform": [
+      10.0,
+      0.0,
+      419020.0,
+      0.0,
+      -10.0,
+      5251220.0
+    ],
+    "proj:geometry": {
+      "type": "Polygon",
+      "coordinates": [
+        [
+          [
+            419020.0,
+            5246130.0
+          ],
+          [
+            424110.0,
+            5246130.0
+          ],
+          [
+            424110.0,
+            5251220.0
+          ],
+          [
+            419020.0,
+            5251220.0
+          ],
+          [
+            419020.0,
+            5246130.0
+          ]
+        ]
+      ]
+    },
+    "proj:bbox": [
+      419020.0,
+      5246130.0,
+      424110.0,
+      5251220.0
+    ],
+    "datetime": "2020-02-17T14:34:42Z"
+  },
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          -69.99243906491516,
+          -42.93315900367056
+        ],
+        [
+          -69.9300675827625,
+          -42.93368278192968
+        ],
+        [
+          -69.92937868122401,
+          -42.887852199409906
+        ],
+        [
+          -69.99170398266921,
+          -42.887329255035354
+        ],
+        [
+          -69.99243906491516,
+          -42.93315900367056
+        ]
+      ]
+    ]
+  },
+  "links": [
+    {
+      "rel": "root",
+      "href": "/home/csaybar/check/collection.json",
+      "type": "application/json",
+      "title": "A Benchmark Dataset for Cloud Semantic Understanding"
+    },
+    {
+      "rel": "collection",
+      "href": "/home/csaybar/check/collection.json",
+      "type": "application/json",
+      "title": "A Benchmark Dataset for Cloud Semantic Understanding"
+    },
+    {
+      "rel": "parent",
+      "href": "/home/csaybar/check/collection.json",
+      "type": "application/json",
+      "title": "A Benchmark Dataset for Cloud Semantic Understanding"
+    },
+    {
+      "rel": "self",
+      "href": "/home/csaybar/check/ROI_0002__S2A_MSIL1C_20200217T141651_N0209_R010_T19GDN_20200217T174153/ROI_0002__S2A_MSIL1C_20200217T141651_N0209_R010_T19GDN_20200217T174153.json",
+      "type": "application/json"
+    }
+  ],
+  "assets": {
+    "CD-FCNN-RGBISWIR": {
+      "href": "https://drive.google.com/uc?export=download&id=1Bt4JrOKJZ98Ls7oeLo6BA7y4PzFjrZkd",
+      "type": "image/tiff; application=geotiff"
+    },
+    "CD-FCNN-RGBI": {
+      "href": "https://drive.google.com/uc?export=download&id=1BtvuiddjrkkNIIK05WuMYQy0Zy07PBXk",
+      "type": "image/tiff; application=geotiff"
+    },
+    "thumbnail": {
+      "href": "https://drive.google.com/uc?export=download&id=18xuPgNXj8zHKm-QZE5HavX0kE647LtrR",
+      "type": "image/tiff; application=geotiff"
+    },
+    "sen2cor": {
+      "href": "https://drive.google.com/uc?export=download&id=1CPgK-86qccOumQVciPnAqEsT4F5_BOzH",
+      "type": "image/tiff; application=geotiff"
+    },
+    "s2cloudless": {
+      "href": "https://drive.google.com/uc?export=download&id=1CTheCBCOuj7Upcve_gGJG_S6rLmfCN03",
+      "type": "image/tiff; application=geotiff"
+    },
+    "qa60": {
+      "href": "https://drive.google.com/uc?export=download&id=1CeFL1yJG_DKnRNxM3vKp3rS4d4nMx-a7",
+      "type": "image/tiff; application=geotiff"
+    },
+    "manual_sc": {
+      "href": "https://drive.google.com/uc?export=download&id=1CegXEf8xSRuLx3Wao8n7riw17cg-O4sc",
+      "type": "image/tiff; application=geotiff"
+    },
+    "manual_hq": {
+      "href": "https://drive.google.com/uc?export=download&id=1CgI7C9lEiURrVaQV1WTyw6Evqp0ZZjn-",
+      "type": "image/tiff; application=geotiff"
+    },
+    "kappamask_L2A": {
+      "href": "https://drive.google.com/uc?export=download&id=1ChTvJUc2Di4qmROWcb1cEXGXHu0db4bi",
+      "type": "image/tiff; application=geotiff"
+    },
+    "kappamask_L1C": {
+      "href": "https://drive.google.com/uc?export=download&id=1CpjBnUGmkHbWpLezNe0PQqhS_G2K_eMi",
+      "type": "image/tiff; application=geotiff"
+    },
+    "fmask": {
+      "href": "https://drive.google.com/uc?export=download&id=1Cvwg0-tckYgiOv55zVDEQntNXkTA0tGY",
+      "type": "image/tiff; application=geotiff"
+    },
+    "S2L2A": {
+      "href": "https://drive.google.com/uc?export=download&id=199ilOONWcCRXf8pz-B4bouR3RLvjPNeL",
+      "type": "image/tiff; application=geotiff"
+    },
+    "S2L1C": {
+      "href": "https://drive.google.com/uc?export=download&id=18InxwbgmEPYuN5cDymWd3NdVOwFjq7g9",
+      "type": "image/tiff; application=geotiff"
+    },
+    "ocurrence": {
+      "href": "https://drive.google.com/uc?export=download&id=1BzMGoyH-yWgZ4xlqhL5BcQepxj1ERXyT",
+      "type": "image/tiff; application=geotiff"
+    },
+    "elevation": {
+      "href": "https://drive.google.com/uc?export=download&id=1C9xsIb2iFFjOSuh2iEQ2IBrRy9gE5w8F",
+      "type": "image/tiff; application=geotiff"
+    },
+    "Shwdirection": {
+      "href": "https://drive.google.com/uc?export=download&id=1C2n2D0YpCBNTljLXIZcxeRUFhJ5-06b7",
+      "type": "image/tiff; application=geotiff"
+    },
+    "LC100": {
+      "href": "https://drive.google.com/uc?export=download&id=1C1sGsfcGlS4g1-E4eS8VqOthwIgTNjid",
+      "type": "image/tiff; application=geotiff"
+    },
+    "LC10": {
+      "href": "https://drive.google.com/uc?export=download&id=1CC192q3NUl1MLYt7RuRploWprh3oEu0u",
+      "type": "image/tiff; application=geotiff"
+    },
+    "S1": {
+      "href": "https://drive.google.com/uc?export=download&id=18JxORGwU04unF-qegTZVELQA-UQVXC7q",
+      "type": "image/tiff; application=geotiff"
+    },
+    "CDI": {
+      "href": "https://drive.google.com/uc?export=download&id=1CGOnZhaC24z2hiBYmdO8LyKdF6Mzi-Io",
+      "type": "image/tiff; application=geotiff"
+    }
+  },
+  "bbox": [
+    -69.99243906491516,
+    -42.93368278192968,
+    -69.92937868122401,
+    -42.887329255035354
+  ],
+  "stac_extensions": [
+    "https://stac-extensions.github.io/projection/v1.0.0/schema.json"
+  ],
+  "collection": "CloudSEN12"
+}

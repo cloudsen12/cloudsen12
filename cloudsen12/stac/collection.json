@@ -1,0 +1,114 @@
+{
+  "type": "Collection",
+  "id": "CloudSEN12",
+  "stac_version": "1.0.0",
+  "description": "\n    CloudSEN12 is a LARGE dataset (~1 TB) for cloud semantic understanding that\n    consists of 49,400 image patches (IP) that are evenly spread throughout all\n    continents except Antarctica. Each IP covers 5090 x 5090 meters and contains\n    data from Sentinel-2 levels 1C and 2A, hand-crafted annotations of thick and\n    thin clouds and cloud shadows, Sentinel-1 Synthetic Aperture Radar (SAR), \n    digital elevation model, surface water occurrence, land cover classes, and\n    cloud mask results from six cutting-edge cloud detection algorithms.\n",
+  "links": [
+    {
+      "rel": "root",
+      "href": "/home/csaybar/check/collection.json",
+      "type": "application/json",
+      "title": "A Benchmark Dataset for Cloud Semantic Understanding"
+    },
+    {
+      "rel": "item",
+      "href": "/home/csaybar/check/ROI_0001__S2A_MSIL1C_20190212T142031_N0207_R010_T19FDF_20190212T191443/ROI_0001__S2A_MSIL1C_20190212T142031_N0207_R010_T19FDF_20190212T191443.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "/home/csaybar/check/ROI_0001__S2A_MSIL1C_20190304T142031_N0207_R010_T19FDF_20190304T174117/ROI_0001__S2A_MSIL1C_20190304T142031_N0207_R010_T19FDF_20190304T174117.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "/home/csaybar/check/ROI_0001__S2B_MSIL1C_20190316T141049_N0207_R110_T19FDF_20190316T203712/ROI_0001__S2B_MSIL1C_20190316T141049_N0207_R110_T19FDF_20190316T203712.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "/home/csaybar/check/ROI_0001__S2B_MSIL1C_20190525T141059_N0207_R110_T19FDF_20190525T172715/ROI_0001__S2B_MSIL1C_20190525T141059_N0207_R110_T19FDF_20190525T172715.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "/home/csaybar/check/ROI_0001__S2A_MSIL1C_20200308T141731_N0209_R010_T19FDF_20200308T185654/ROI_0001__S2A_MSIL1C_20200308T141731_N0209_R010_T19FDF_20200308T185654.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "/home/csaybar/check/ROI_0002__S2A_MSIL1C_20190116T142751_N0207_R053_T19GDN_20190116T174949/ROI_0002__S2A_MSIL1C_20190116T142751_N0207_R053_T19GDN_20190116T174949.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "/home/csaybar/check/ROI_0002__S2A_MSIL1C_20190602T142041_N0207_R010_T19GDN_20190602T174119/ROI_0002__S2A_MSIL1C_20190602T142041_N0207_R010_T19GDN_20190602T174119.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "/home/csaybar/check/ROI_0002__S2A_MSIL1C_20200217T141651_N0209_R010_T19GDN_20200217T174153/ROI_0002__S2A_MSIL1C_20200217T141651_N0209_R010_T19GDN_20200217T174153.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "/home/csaybar/check/ROI_0002__S2A_MSIL1C_20200410T142731_N0209_R053_T19GDN_20200410T175113/ROI_0002__S2A_MSIL1C_20200410T142731_N0209_R053_T19GDN_20200410T175113.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "/home/csaybar/check/ROI_0002__S2B_MSIL1C_20200422T141729_N0209_R010_T19GDN_20200422T192005/ROI_0002__S2B_MSIL1C_20200422T141729_N0209_R010_T19GDN_20200422T192005.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "/home/csaybar/check/ROI_0004__S2A_MSIL1C_20190208T143751_N0207_R096_T19KDR_20190208T180253/ROI_0004__S2A_MSIL1C_20190208T143751_N0207_R096_T19KDR_20190208T180253.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "self",
+      "href": "/home/csaybar/check/collection.json",
+      "type": "application/json"
+    }
+  ],
+  "stac_extensions": [],
+  "title": "A Benchmark Dataset for Cloud Semantic Understanding",
+  "extent": {
+    "spatial": {
+      "bbox": [
+        [
+          -180,
+          -90,
+          180,
+          90
+        ]
+      ]
+    },
+    "temporal": {
+      "interval": [
+        [
+          "2018-01-01T00:00:00Z",
+          "2020-12-31T00:00:00Z"
+        ]
+      ]
+    }
+  },
+  "license": "CC-BY-4.0",
+  "keywords": [
+    "cloud detection",
+    "deep learning",
+    "semantic segmentation",
+    "Sentinel-2",
+    "Sentinel-1"
+  ],
+  "providers": [
+    {
+      "name": "EcoHidro",
+      "roles": [
+        "producer",
+        "licensor"
+      ],
+      "url": "https://vrip.unmsm.edu.pe/category/ecohidro/"
+    }
+  ]
+}

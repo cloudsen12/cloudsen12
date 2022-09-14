@@ -14,7 +14,7 @@ def read(filename):
 
 setup(
     name="cloudsen12",
-    version="0.0.1",
+    version="0.0.2",
     url="https://github.com/cloudsen12/cloudsen12",
     license="MIT",
     author="Cesar Luis Aybar Camacho",
@@ -26,7 +26,9 @@ setup(
     install_requires=[
         "maskay",
         "pytorch_lightning",
-        "segmentation_models_pytorch"        
+        "segmentation_models_pytorch",
+        "gdown",
+        "pystac",
     ],
     classifiers=[
         "Development Status :: 2 - Pre-Alpha",
